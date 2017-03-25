@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MudrakPatel_Lab06
+namespace MudrakPatel_Lab06_Ex1
 {
     public partial class Form1 : Form
     {

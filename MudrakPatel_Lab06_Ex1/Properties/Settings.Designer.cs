@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MudrakPatel_Lab06.Properties
+namespace MudrakPatel_Lab06_Ex1.Properties
 {
 
 
