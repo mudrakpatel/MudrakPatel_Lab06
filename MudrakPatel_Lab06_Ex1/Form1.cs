@@ -16,14 +16,5 @@ namespace MudrakPatel_Lab06_Ex1
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'baseballDataSet.Players' table. You can move, or remove it, as needed.
-            this.playersTableAdapter.Fill(this.baseballDataSet.Players);
-            // TODO: This line of code loads data into the 'baseballDataSet.Players' table. You can move, or remove it, as needed.
-            this.playersTableAdapter.Fill(this.baseballDataSet.Players);
-
-        }
     }
 }
