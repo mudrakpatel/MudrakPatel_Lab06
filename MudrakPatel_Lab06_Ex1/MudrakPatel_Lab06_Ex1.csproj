@@ -79,6 +79,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\BaseballDatabaseLibrary.BaseballEntities.datasource" />
     <None Include="Properties\DataSources\BaseballDatabaseLibrary.Player.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
