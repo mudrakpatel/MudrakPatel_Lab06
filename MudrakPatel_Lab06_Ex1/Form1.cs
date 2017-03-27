@@ -16,6 +16,11 @@ namespace MudrakPatel_Lab06_Ex1
         {
             InitializeComponent();
         }
+        public BaseballEntities dbcontext = new BaseballEntities();
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
