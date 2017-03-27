@@ -16,5 +16,6 @@ namespace MudrakPatel_Lab06_Ex1
         {
             InitializeComponent();
         }
+
     }
 }
