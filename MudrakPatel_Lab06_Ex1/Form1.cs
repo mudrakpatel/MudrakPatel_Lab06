@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Windows.Forms;
-using BaseballDatabaseLibrary;
+//using BaseballDatabaseLibrary;
 
 namespace MudrakPatel_Lab06_Ex1
 {
@@ -14,7 +14,7 @@ namespace MudrakPatel_Lab06_Ex1
             InitializeComponent();
         }
 
-        BaseballEntities dbcontext = new BaseballEntities();
+        private BaseballDatabaseLibrary.BaseballEntities dbcontext = new BaseballDatabaseLibrary.BaseballEntities();
 
         private void Form1_Load(object sender, EventArgs e)
         {
