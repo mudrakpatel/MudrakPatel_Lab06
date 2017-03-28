@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudrakPatel_Lab06_Ex1", "MudrakPatel_Lab06_Ex1\MudrakPatel_Lab06_Ex1.csproj", "{CD27C5A3-42A5-4581-9735-3398AD1A5453}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudrakPatel_Lab06_ClassLibrary", "MudrakPatel_Lab06_ClassLibrary\MudrakPatel_Lab06_ClassLibrary.csproj", "{74DDAB0C-9EC0-4A76-9686-93129FC29555}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CD27C5A3-42A5-4581-9735-3398AD1A5453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD27C5A3-42A5-4581-9735-3398AD1A5453}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD27C5A3-42A5-4581-9735-3398AD1A5453}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD27C5A3-42A5-4581-9735-3398AD1A5453}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74DDAB0C-9EC0-4A76-9686-93129FC29555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74DDAB0C-9EC0-4A76-9686-93129FC29555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DDAB0C-9EC0-4A76-9686-93129FC29555}.Release|Any CPU.ActiveCfg = Release|Any CPU
