@@ -49,6 +49,9 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.playerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.searchTextBox = new System.Windows.Forms.TextBox();
+            this.searchButton = new System.Windows.Forms.Button();
+            this.searchLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.playerBindingNavigator)).BeginInit();
             this.playerBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.playerDataGridView)).BeginInit();
@@ -173,11 +176,11 @@
             // playerBindingNavigatorSaveItem
             // 
             this.playerBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.playerBindingNavigatorSaveItem.Enabled = false;
             this.playerBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("playerBindingNavigatorSaveItem.Image")));
             this.playerBindingNavigatorSaveItem.Name = "playerBindingNavigatorSaveItem";
             this.playerBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
             this.playerBindingNavigatorSaveItem.Text = "Save Data";
+            this.playerBindingNavigatorSaveItem.Click += new System.EventHandler(this.playerBindingNavigatorSaveItem_Click);
             // 
             // playerDataGridView
             // 
@@ -189,7 +192,7 @@
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
             this.playerDataGridView.DataSource = this.playerBindingSource;
-            this.playerDataGridView.Location = new System.Drawing.Point(18, 64);
+            this.playerDataGridView.Location = new System.Drawing.Point(13, 88);
             this.playerDataGridView.Name = "playerDataGridView";
             this.playerDataGridView.Size = new System.Drawing.Size(446, 220);
             this.playerDataGridView.TabIndex = 1;
@@ -222,11 +225,40 @@
             // 
             this.playerBindingSource.DataSource = typeof(MudrakPatel_Lab06_Ex1.Player);
             // 
+            // searchTextBox
+            // 
+            this.searchTextBox.Location = new System.Drawing.Point(144, 46);
+            this.searchTextBox.Name = "searchTextBox";
+            this.searchTextBox.Size = new System.Drawing.Size(242, 20);
+            this.searchTextBox.TabIndex = 2;
+            // 
+            // searchButton
+            // 
+            this.searchButton.Location = new System.Drawing.Point(393, 46);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(75, 23);
+            this.searchButton.TabIndex = 3;
+            this.searchButton.Text = "Search";
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
+            // searchLabel
+            // 
+            this.searchLabel.AutoSize = true;
+            this.searchLabel.Location = new System.Drawing.Point(13, 47);
+            this.searchLabel.Name = "searchLabel";
+            this.searchLabel.Size = new System.Drawing.Size(127, 13);
+            this.searchLabel.TabIndex = 4;
+            this.searchLabel.Text = "Enter player\'s lastname ->";
+            // 
             // DisplayPlayers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 304);
+            this.ClientSize = new System.Drawing.Size(641, 320);
+            this.Controls.Add(this.searchLabel);
+            this.Controls.Add(this.searchButton);
+            this.Controls.Add(this.searchTextBox);
             this.Controls.Add(this.playerDataGridView);
             this.Controls.Add(this.playerBindingNavigator);
             this.Name = "DisplayPlayers";
@@ -263,6 +295,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.TextBox searchTextBox;
+        private System.Windows.Forms.Button searchButton;
+        private System.Windows.Forms.Label searchLabel;
     }
 }
 
